@@ -4,7 +4,7 @@ import StarBackground from '../components/StarBackground'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import About from '../components/About'
-import Skills from '../components/Skills'
+import Skills from "../components/Skills.jsx"; // ✅ CORRECT
 import Project from '../components/Project'
 import ContactSection from '../components/ContactSection'
 import Footer from '../components/Footer'
