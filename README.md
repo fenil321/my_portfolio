@@ -38,4 +38,4 @@ This project is open source and available under the [MIT License](LICENSE) (add 
 
 ---
 
-> © {year} Fenil Parmar. Connect with me on [LinkedIn](https://www.linkedin.com/in/fenil-parmar-90471524a) or [GitHub](https://github.com/fenil321).
+> © {2025} Fenil Parmar. Connect with me on [LinkedIn](https://www.linkedin.com/in/fenil-parmar-90471524a) or [GitHub](https://github.com/fenil321).
