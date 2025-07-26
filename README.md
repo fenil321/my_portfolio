@@ -1,12 +1,41 @@
-# React + Vite
+# Fenil Parmar's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio built with React and Vite. Showcasing my projects, skills, and experience as a web developer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
 
-## Expanding the ESLint configuration
+[Live Demo](https://fenil-parmar-portfolio.vercel.app) 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- **Hero Section:** Brief introduction and call-to-action.
+- **About Me:** Background, education, and career highlights.
+- **Skills:** Visual showcase of technical skills (HTML, CSS, JavaScript, React, Node.js, Java, Python, MongoDB, MySQL, and more).
+- **Projects:** Featured projects with images, descriptions, tech stack, and GitHub links.
+- **Contact:** Email form and social/contact info.
+- **Dark/Light Mode:** Toggle between dark and light themes.
+- **Responsive Design:** Looks great on all devices.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS
+- **Routing:** React Router
+- **UI/Icons:** Lucide React
+- **Notifications:** react-hot-toast
+- **Other:** ESLint, Radix UI Toast
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE) (add a LICENSE file if you want).
+
+---
+
+> © {year} Fenil Parmar. Connect with me on [LinkedIn](https://www.linkedin.com/in/fenil-parmar-90471524a) or [GitHub](https://github.com/fenil321).
