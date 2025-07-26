@@ -1,4 +1,4 @@
-# Fenil Parmar's Portfolio
+# My Portfolio
 
 A modern, responsive developer portfolio built with React and Vite. Showcasing my projects, skills, and experience as a web developer.
 
