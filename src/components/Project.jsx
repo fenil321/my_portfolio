@@ -3,6 +3,16 @@ import { Github, ExternalLink, ArrowRight } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Wearify",
+    description:
+      " Wearify is a web application that provides an interface to buy street fashion apparel and custom anime designs online and also see the reviews and ratings of the products",
+    image: "/projects/wearify.png",
+    tags: ["React", "Node", "Express", "MongoDB"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/fenil321/wearify-e-commerce",
+  },
+  {
+    id: 2,
     title: "Rentify",
     description:
       " The Rentify Portal is a web application, which provides an interface to buy or rent house online and also see the reviews and ratings of the house",
@@ -12,7 +22,7 @@ const projects = [
     githubUrl: "https://github.com/fenil321/Rentify-real-Estate-Website",
   },
   {
-    id: 2,
+    id: 3,
     title: "Wifi Based Attendance Management System",
     description:
       "A mobile application for digital attendance using faculty-generated Wi-Fi hotspots",
@@ -22,20 +32,20 @@ const projects = [
     githubUrl: "https://github.com/rahulswain85/WifiAttendanceAppForSVMIT",
   },
   {
-    id: 3,
+    id: 4,
     title: "MindBoard",
     description:
-      "A full-stack collaborative note-taking application that allows users to create, view, and manage notes efficiently, with built-in rate limiting and a modern UI.",
+      "A full-stack collaborative note-taking application that allows users to create, view, and manage notes efficiently, with built-in rate limiting and a modern UI",
     image: "/projects/mindboard.png",
     tags: ["React", "Node", "Express", "MongoDB", "Tailwind"],
     demoUrl: "#",
     githubUrl: "https://github.com/fenil321/mern-mindboard",
   },
   {
-    id: 4,
+    id: 5,
     title: "My Portfolio",
     description:
-      "A modern, responsive developer portfolio built with React and Vite. Showcasing my projects, skills, and experience as a web developer.",
+      "A modern, responsive developer portfolio built with React and Vite. Showcasing my projects, skills, and experience as a web developer",
     image: "/projects/my_portfolio.png",
     tags: ["HTML", "CSS", "React", "Tailwind"],
     demoUrl: "#",
@@ -80,13 +90,16 @@ const Project = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      {/* <ExternalLink size={20}/> */}
-                    </a>
+                    {project.demoUrl && project.demoUrl !== "#" && (
+                      <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <ExternalLink size={20} />
+                      </a>
+                    )}
                     <a
                       href={project.githubUrl}
                       target="_blank"
