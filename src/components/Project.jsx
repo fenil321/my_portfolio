@@ -8,7 +8,7 @@ const projects = [
       " Wearify is a web application that provides an interface to buy street fashion apparel and custom anime designs online and also see the reviews and ratings of the products",
     image: "/projects/wearify.png",
     tags: ["React", "Node", "Express", "MongoDB"],
-    demoUrl: "#",
+    demoUrl: "https://wearify-ten.vercel.app/",
     githubUrl: "https://github.com/fenil321/wearify-e-commerce",
   },
   {
@@ -48,7 +48,7 @@ const projects = [
       "A modern, responsive developer portfolio built with React and Vite. Showcasing my projects, skills, and experience as a web developer",
     image: "/projects/my_portfolio.png",
     tags: ["HTML", "CSS", "React", "Tailwind"],
-    demoUrl: "#",
+    demoUrl: "https://fenil-parmar-portfolio.vercel.app/",
     githubUrl: "https://github.com/fenil321/my_portfolio",
   },
 ];
