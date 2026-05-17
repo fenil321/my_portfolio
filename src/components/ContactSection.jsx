@@ -40,7 +40,7 @@ const ContactSection = () => {
         .then((res2) => {
           //console.log("EmailJS auto-reply response:", res2);
           toast.success(
-            "Message sent — thank you! I will get back to you soon.",
+            "Message sent — Thank you! I will get back to you soon.",
           );
           e.target.reset();
         })
